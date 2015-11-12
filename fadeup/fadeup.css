@@ -1,0 +1,52 @@
+body {
+  font-family: 'helvetica', sans-serif;
+  text-transform: uppercase;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #FF9800;
+  border: 1px solid #000;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  float: left;
+}
+#me {
+  background-color: red;
+}
+
+@-webkit-keyframes fadeUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeUp {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeUp;
+  animation-name: fadeUp;
+}

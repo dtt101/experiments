@@ -1,0 +1,103 @@
+<html>
+<head>
+  <link href="fadeup.css" rel="stylesheet" />
+  <script src="bower_components/waypoints/lib/noframework.waypoints.min.js"></script>
+</head>
+<body>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box" id="me">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <div class="box">
+    BOX
+  </div>
+  <script>
+    var waypoint = new Waypoint({
+      element: document.getElementById('me'),
+      handler: function(direction) {
+        if (direction === "down") {
+          this.element.classList.add('fadeUp');
+        }
+      },
+      offset: '100%'
+    })
+  </script>
+</body>
+</html>
